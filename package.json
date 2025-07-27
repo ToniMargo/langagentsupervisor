@@ -1,0 +1,32 @@
+{
+  "name": "langagentsupervisor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.24",
+    "@langchain/google-genai": "^0.2.16",
+    "@langchain/langgraph": "^0.3.11",
+    "@langchain/langgraph-checkpoint-mongodb": "^0.0.6",
+    "@langchain/mongodb": "^0.1.0",
+    "@langchain/openai": "^0.6.3",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "langchain": "^0.3.30",
+    "mongodb": "^6.18.0",
+    "openai": "^5.10.2",
+    "zod": "^3.25.76"
+  }
+}
