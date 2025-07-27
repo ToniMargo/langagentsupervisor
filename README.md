@@ -39,7 +39,7 @@ LangAgentSupervisor is a TypeScript-based chatbot that uses **LangGraphJS**, **O
    ```
 
 4. **Create a Vector Search index in MongoDB Atlas**
-   Go to **Atlas → Search → Indexes**, and create a vector index with the following definition:
+   Go to **SERVICES → Atlas Search → + CREATE SEARCH INDEX**, and create a vector index with the following definition:
 
    ```json
    {
