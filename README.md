@@ -8,6 +8,7 @@ LangAgentSupervisor is a TypeScript-based chatbot that uses **LangGraphJS**, **O
 
 - **Node.js** (v14 or later)
 - **MongoDB Atlas** account
+- An open **MongoDB Atlas** project with one running cluster
 - **OpenAI API key** (with at least $5 credits): [Get API Key](https://platform.openai.com/api-keys)
 - **Anthropic API key** (with at least $5 credits): [Get API Key](https://console.anthropic.com/settings/keys)
 
