@@ -32,7 +32,7 @@ LangAgentSupervisor is a TypeScript-based chatbot that uses **LangGraphJS**, **O
    ```
 
 3. **Seed the MongoDB database**
-   Run the script to populate the `employees` collection with sample documents and 768-dimensional vector embeddings:
+   Run the script to populate the `employees` collection with sample documents and 1536-dimensional vector embeddings:
 
    ```bash
    npx ts-node seed-database.ts
@@ -45,7 +45,7 @@ LangAgentSupervisor is a TypeScript-based chatbot that uses **LangGraphJS**, **O
    {
      "fields": [
        {
-         "numDimensions": 768,
+         "numDimensions": 1536,
          "path": "embedding",
          "similarity": "cosine",
          "type": "vector"
